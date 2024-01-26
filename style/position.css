@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.parent{
+    width: 1000px;
+    height: 600px;
+    background-color: green;
+    position: relative;
+    top: 50px;
+    margin: 0 auto;
+}
+
+.red{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: absolute;
+    border-radius: 50%;
+    display: flex;
+    top: 200px;
+    right: 400px;
+}
